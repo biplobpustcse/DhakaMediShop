@@ -7,9 +7,55 @@ body {
 }
 
 header {
-  background-color: #007BFF;
-  color: white;
+  background-color: #ffffff; /* White background for contrast */
   padding: 1rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333; /* Neutral gray for subtitle */
+}
+
+/* Colors extracted from logo */
+.blue-text {
+  color: #0076C0; /* Logo blue */
+}
+
+.green-text {
+  color: #3E8E3E; /* Logo green */
+}
+
+.contact-info {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.contact-info a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }
 
 #product-list {
@@ -19,13 +65,13 @@ header {
   padding: 1rem;
 }
 
-.product-card {
-  background: white;
-  border: 1px solid #ddd;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
+.product-card img {
+  width: 100%;       /* Make image fill the card width */
+  max-height: 300px; /* Limit height to keep consistency */
+  object-fit: contain; /* Maintain aspect ratio without cropping */
+  border-radius: 5px;
+  margin-bottom: 0.8rem;
+  background-color: #f9f9f9; /* optional: to give a subtle background if image has transparency */
 }
 
 .product-card:hover {
@@ -86,6 +132,13 @@ footer {
 
 /* 📱 Mobile Responsive Fixes */
 @media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo {
+    margin: 0 0 0.5rem 0;
+  }
   header h1 {
     font-size: 1.4rem;
   }
@@ -93,7 +146,9 @@ footer {
   header p {
     font-size: 0.9rem;
   }
-
+  .contact-info {
+    text-align: center;
+  }
   button {
     font-size: 0.85rem;
     padding: 0.5rem 0.8rem;
