@@ -19,9 +19,13 @@ header {
 }
 
 .logo {
-  height: 60px;
-  width: auto;
-  margin-right: 1rem;
+  width: 120px;             /* set fixed width & height */
+  height: 120px;
+  border-radius: 50%;      /* make it a circle */
+  object-fit: cover;       /* make sure image covers the circle */
+  border: 2px solid #0076C0; /* optional: add a colored border matching your brand blue */
+  background-color: #ffffff;  /* optional: white background inside the circle */
+  box-shadow: 0 0 5px rgba(0,0,0,0.1); /* optional subtle shadow */
 }
 
 .header-text h1 {
