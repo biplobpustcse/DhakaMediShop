@@ -6,7 +6,8 @@ const products = [
     finalPrice: 660,
     image: "images/QLab Blood Glucose Monitoring System.jpg",
     offerText: "🎉 অফার! অফার! অফার! 🎉<br>🔥 ৬০% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
-    link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Q.Lab%20Blood%20Glucose%20Meter"
+    //link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Q.Lab%20Blood%20Glucose%20Meter"
+    link: "https://www.facebook.com/dhakamedishop"
   },
   {
     name: "Sinocare Safe-Accu Blood Glucose Monitoring System",
@@ -15,7 +16,8 @@ const products = [
     finalPrice: 740,
     image: "images/Sinocare Safe-Accu Blood Glucose Meter.png",
     offerText: "🎉 অফার! অফার! অফার! 🎉<br>🔥 ৬০% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
-    link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Sinocare%20Blood%20Glucose%20Meter"
+    //link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Sinocare%20Blood%20Glucose%20Meter"
+    link: "https://www.facebook.com/dhakamedishop"
   }
 ];
 
