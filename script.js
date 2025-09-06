@@ -35,7 +35,7 @@ products.forEach((product, index) => {
     <p class="final-price">💳 সেল প্রাইস: মাত্র ৳${product.finalPrice}</p>
     <div class="button-group">
       <a href="${product.link}" target="_blank">
-        <button>📲 Order Now</button>
+        <button>Order Now</button>
       </a>
       <a href="details.html?product=${index}">
         <button>View Details</button>
