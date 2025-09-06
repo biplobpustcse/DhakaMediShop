@@ -23,7 +23,7 @@ const products = [
 
 const productList = document.getElementById("product-list");
 
-products.forEach(product => {
+products.forEach((product, index) => {
   const card = document.createElement("div");
   card.classList.add("product-card");
   card.innerHTML = `
@@ -33,9 +33,14 @@ products.forEach(product => {
     <p><del>MRP: ৳${product.mrp}</del></p>
     <p>💥 ডিসকাউন্ট: ${product.discount}%</p>
     <p class="final-price">💳 সেল প্রাইস: মাত্র ৳${product.finalPrice}</p>
-    <a href="${product.link}" target="_blank">
-      <button>Order Now</button>
-    </a>
+    <div class="button-group">
+      <a href="${product.link}" target="_blank">
+        <button>📲 Order Now</button>
+      </a>
+      <a href="details.html?product=${index}">
+        <button>View Details</button>
+      </a>
+    </div>
   `;
   productList.appendChild(card);
 });

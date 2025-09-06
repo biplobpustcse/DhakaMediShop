@@ -1,3 +1,4 @@
+/* ===== Global ===== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #ffffff; /* White background for contrast */
+  background-color: #ffffff;
   padding: 1rem;
 }
 
@@ -19,13 +20,13 @@ header {
 }
 
 .logo {
-  width: 120px;             /* set fixed width & height */
+  width: 120px;
   height: 120px;
-  border-radius: 50%;      /* make it a circle */
-  object-fit: cover;       /* make sure image covers the circle */
-  border: 2px solid #0076C0; /* optional: add a colored border matching your brand blue */
-  background-color: #ffffff;  /* optional: white background inside the circle */
-  box-shadow: 0 0 5px rgba(0,0,0,0.1); /* optional subtle shadow */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0076C0;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
 .header-text h1 {
@@ -36,16 +37,16 @@ header {
 .header-text p {
   margin: 0;
   font-size: 1rem;
-  color: #333; /* Neutral gray for subtitle */
+  color: #333;
 }
 
 /* Colors extracted from logo */
 .blue-text {
-  color: #0076C0; /* Logo blue */
+  color: #0076C0;
 }
 
 .green-text {
-  color: #3E8E3E; /* Logo green */
+  color: #3E8E3E;
 }
 
 .contact-info {
@@ -62,6 +63,7 @@ header {
   text-decoration: underline;
 }
 
+/* ===== Product List Grid ===== */
 #product-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -69,13 +71,12 @@ header {
   padding: 1rem;
 }
 
-.product-card img {
-  width: 100%;       /* Make image fill the card width */
-  max-height: 300px; /* Limit height to keep consistency */
-  object-fit: contain; /* Maintain aspect ratio without cropping */
-  border-radius: 5px;
-  margin-bottom: 0.8rem;
-  background-color: #f9f9f9; /* optional: to give a subtle background if image has transparency */
+.product-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
 }
 
 .product-card:hover {
@@ -83,9 +84,11 @@ header {
 }
 
 .product-card img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
   border-radius: 5px;
+  margin-bottom: 0.8rem;
 }
 
 h2 {
@@ -98,6 +101,7 @@ p {
   color: #333;
 }
 
+/* ===== Buttons ===== */
 button {
   background-color: #28a745;
   color: white;
@@ -106,19 +110,21 @@ button {
   cursor: pointer;
   border-radius: 5px;
   font-size: 0.9rem;
+  margin: 0.2rem;
 }
 
 button:hover {
   background-color: #218838;
 }
 
-footer {
-  background-color: #f1f1f1;
-  padding: 1rem;
-  font-size: 0.8rem;
-  margin-top: 2rem;
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
+/* ===== Offer & Price ===== */
 .offer {
   background: #ffeeba;
   padding: 0.5rem;
@@ -133,6 +139,71 @@ footer {
   color: #d9534f;
 }
 
+/* ===== Details Page ===== */
+.details {
+  max-width: 800px;
+  margin: 1.5rem auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.details img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.details h2 {
+  text-align: center;
+  color: #0076C0;
+}
+
+.details h3 {
+  margin-top: 1rem;
+  color: #3E8E3E;
+}
+
+.details p, .details li {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.details ul {
+  padding-left: 1.2rem;
+  list-style-type: "✔ ";
+}
+
+/* Back/Home Button */
+.back-home {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.back-home a {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #0076C0;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-home a:hover {
+  background-color: #005a91;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
 
 /* 📱 Mobile Responsive Fixes */
 @media (max-width: 600px) {
@@ -146,7 +217,6 @@ footer {
   header h1 {
     font-size: 1.4rem;
   }
-
   header p {
     font-size: 0.9rem;
   }
@@ -156,5 +226,8 @@ footer {
   button {
     font-size: 0.85rem;
     padding: 0.5rem 0.8rem;
+  }
+  .details {
+    padding: 1rem;
   }
 }
