@@ -62,9 +62,16 @@ if (productId !== null && productDetails[productId]) {
     <p class="final-price">💳 সেল প্রাইস: মাত্র ৳${product.finalPrice}</p>
     <h3>✅ পণ্যের বিবরণ:</h3>
     <p>${product.description}</p>
-    <a href="${product.link}" target="_blank">
-      <button>📲 Order Now</button>
-    </a>
+    <div class="button-group">
+      <a href="${product.link}" target="_blank">
+        <button>Order Now</button>
+      </a>
+      <a href="https://m.me/dhakamedishop" target="_blank">
+        <button>Message on Facebook</button>
+      </a>
+    </div>
+
+    
   `;
 } else {
   productDetail.innerHTML = "<p>❌ পণ্য পাওয়া যায়নি!</p>";
