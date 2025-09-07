@@ -34,11 +34,11 @@ const strips = [
   },
   {
     name: "Sinocare Safe Accu 2 Blood Glucose Strip 50's Pack",
-    mrp: 1700,
-    discount: 60,
-    finalPrice: 680,
+    mrp: 850,
+    discount: 23,
+    finalPrice: 650,
     image: "images/Sinocare Safe Accu 2 Blood Glucose Strip 50's Pack.png",
-    offerText: "🔥 ৬০% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🔥 ৩০% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20QLab%20Test%20Strip"
   }
   

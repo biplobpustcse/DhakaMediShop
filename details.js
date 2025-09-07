@@ -64,11 +64,11 @@ const stripDetails = [
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Sinocare%20Test%20Strip"
   },
   {
-    name: "Q.Lab Blood/Diabetics Glucose Test Strip",
+    name: "Sinocare Safe Accu 2 Blood Glucose Strip 50's Pack",
     image: "images/Sinocare Safe-Accu Blood Glucose Test Strip 50's Pack.png",
-    mrp: 950,
-    discount: 40,
-    finalPrice: 570,
+    mrp: 850,
+    discount: 23,
+    finalPrice: 650,
     description: `
       ✅ ব্র্যান্ড: Non-Brand (Safe-Accu Compatible)<br>
       ✅ পণ্যের ধরন: Blood Sugar Test Strips (BD)<br>
