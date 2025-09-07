@@ -65,7 +65,7 @@ const stripDetails = [
   },
   {
     name: "Sinocare Safe Accu 2 Blood Glucose Strip 50's Pack",
-    image: "images/Sinocare Safe-Accu Blood Glucose Test Strip 50's Pack.png",
+    image: "images/Sinocare Safe Accu 2 Blood Glucose Strip 50's Pack.png",
     mrp: 850,
     discount: 23,
     finalPrice: 650,
