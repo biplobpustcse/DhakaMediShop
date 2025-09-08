@@ -35,10 +35,10 @@ const strips = [
   {
     name: "Q.Lab Blood Glucose Monitoring System Test Strip 25 pcs",
     mrp: 600,
-    discount: 8,
-    finalPrice: 550,
+    discount: 16,
+    finalPrice: 500,
     image: "images/Q.Lab Blood Glucose Monitoring System Test Strip 25 pcs.png",
-    offerText: "🔥 ৮% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🔥 ১৬% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20QLab%20Test%20Strip"
   },
   {

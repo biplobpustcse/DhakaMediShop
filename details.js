@@ -67,8 +67,8 @@ const stripDetails = [
     name: "Q.Lab Blood Glucose Monitoring System Test Strip 25 pcs",
     image: "images/Q.Lab Blood Glucose Monitoring System Test Strip 25 pcs.png",
     mrp: 600,
-    discount: 8,
-    finalPrice: 550,
+    discount: 16,
+    finalPrice: 500,
     description: `
       ✅ ব্র্যান্ড: Q-Lab<br>
       ✅ পণ্যের ধরন: Blood Sugar Test Strips (BD)<br>
