@@ -33,11 +33,11 @@ const productDetails = [
     finalPrice: 660,
     description: `
       ✅ মাত্র ১০ সেকেন্ডে নির্ভুল ফলাফল<br>
-      ✅ সহজ ও সুবিধাজনক: এক ফোঁটা রক্তই যথেষ্ট<br>
-      ✅ আজীবন রিপ্লেসমেন্ট ওয়ারেন্টি<br>
+      ✅ সহজ ও সুবিধাজনক: এক ফোঁটা রক্তই যথেষ্ট<br>      
       ✅ ফার্মাসিস্টদের ১ নম্বর পছন্দ<br>
       ✅ তাইওয়ানের সেরা প্রযুক্তি<br>
-      ✅ ফ্রি অফার: ৫টি ল্যানসেট কিট ফ্রি
+      ✅ ফ্রি অফার: ৫টি ল্যানসেট কিট ফ্রি<br>
+      ✅ আজীবন রিপ্লেসমেন্ট ওয়ারেন্টি
     `,
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Q.Lab%20Blood%20Glucose%20Meter"
   }
@@ -53,7 +53,7 @@ const stripDetails = [
     finalPrice: 680,
     description: `
       ✅ পণ্য: Blood Glucose Test Strips<br>
-      ✅ ব্র্যান্ড: Sinocare Safe-Accu<br>
+      ✅ ব্র্যান্ড: Sinocare<br>
       ✅ প্যাক সাইজ: 2 Vial × 25 = মোট 50 Test Strip<br>
       ✅ ম্যাটেরিয়াল: Polymer Fibre<br>
       ✅ কালার: Multicolor<br>
@@ -64,14 +64,31 @@ const stripDetails = [
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Sinocare%20Test%20Strip"
   },
   {
+    name: "Q.Lab Blood Glucose Monitoring System Test Strip 25 pcs",
+    image: "images/Q.Lab Blood Glucose Monitoring System Test Strip 25 pcs.png",
+    mrp: 600,
+    discount: 8,
+    finalPrice: 550,
+    description: `
+      ✅ ব্র্যান্ড: Q-Lab<br>
+      ✅ পণ্যের ধরন: Blood Sugar Test Strips (BD)<br>
+      ✅ প্যাক সাইজ: 25 Pieces<br>
+      ✅ স্টোরেজ: ঠান্ডা ও শুকনো স্থানে রাখুন<br>
+      ✅ স্ট্রিপ হ্যান্ডলিং: টেস্ট করার আগে হাত পরিষ্কার ও শুকনো রাখুন<br>
+      ✅ ব্যবহার উপযোগী: হোম ও ক্লিনিকাল ইউজ<br>
+      ✅ ক্যাশ অন ডেলিভারি সুবিধা
+    `,
+    link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20QLab%20Test%20Strip"
+  },
+  {
     name: "Sinocare Safe Accu 2 Blood Glucose Strip 50's Pack",
     image: "images/Sinocare Safe Accu 2 Blood Glucose Strip 50's Pack.png",
     mrp: 850,
     discount: 23,
     finalPrice: 650,
     description: `
-      ✅ ব্র্যান্ড: Non-Brand (Safe-Accu Compatible)<br>
-      ✅ পণ্যের ধরন: Blood Sugar Test Strips (BD)<br>
+      ✅ ব্র্যান্ড: Sinocare<br>
+      ✅ পণ্যের ধরন: Blood Sugar Test Strips<br>
       ✅ প্যাক সাইজ: 50 Pieces<br>
       ✅ স্টোরেজ: ঠান্ডা ও শুকনো স্থানে রাখুন<br>
       ✅ স্ট্রিপ হ্যান্ডলিং: টেস্ট করার আগে হাত পরিষ্কার ও শুকনো রাখুন<br>
