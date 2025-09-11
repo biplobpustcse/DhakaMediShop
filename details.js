@@ -43,13 +43,15 @@ const productDetails = [
   }
 ];
 
+
+
 // Strip details database
 const stripDetails = [
   {
     name: "Sinocare Safe-Accu Blood Glucose Test Strip 50's Pack",
     image: "images/Sinocare Safe-Accu Blood Glucose Test Strip 50's Pack.png",
     mrp: 1700,
-    discount: 1020,
+    discount: 60,
     finalPrice: 680,
     description: `
       ✅ পণ্য: Blood Glucose Test Strips<br>
@@ -97,6 +99,74 @@ const stripDetails = [
       ✅ ক্যাশ অন ডেলিভারি সুবিধা
     `,
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20QLab%20Test%20Strip"
+  },
+  {
+    name: "Sinocare Safe AQ Blood Glucose Test Strip 50's Pack",
+    image: "images/Sinocare Safe AQ Blood Glucose Test Strip 50's Pack.png",
+    mrp: 1300,
+    discount: 52,
+    finalPrice: 620,
+    description: `
+      ✅ ব্র্যান্ড: Sinocare<br>
+      ✅ পণ্যের ধরন: Blood Sugar Test Strips<br>
+      ✅ প্যাক সাইজ: 50 Pieces<br>
+      ✅ স্টোরেজ: ঠান্ডা ও শুকনো স্থানে রাখুন<br>
+      ✅ স্ট্রিপ হ্যান্ডলিং: টেস্ট করার আগে হাত পরিষ্কার ও শুকনো রাখুন<br>
+      ✅ ব্যবহার উপযোগী: হোম ও ক্লিনিকাল ইউজ<br>
+      ✅ ক্যাশ অন ডেলিভারি সুবিধা
+    `,
+    link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Sinocare%20Safe%20AQ%20Test%20Strip"
+  },
+  {
+    name: "G1 Advance Blood Glucose Strip (25*2) 50 pcs Pack",
+    image: "images/G1 Advance Blood Glucose Strip (25-2) 50 pcs Pack.png",
+    mrp: 985,
+    discount: 23,
+    finalPrice: 750,
+    description: `
+      ✅ ব্র্যান্ড: G1 Advance<br>
+      ✅ পণ্যের ধরন: Blood Sugar Test Strips<br>
+      ✅ প্যাক সাইজ: (25*2) 50 Pieces<br>
+      ✅ স্টোরেজ: ঠান্ডা ও শুকনো স্থানে রাখুন<br>
+      ✅ স্ট্রিপ হ্যান্ডলিং: টেস্ট করার আগে হাত পরিষ্কার ও শুকনো রাখুন<br>
+      ✅ ব্যবহার উপযোগী: হোম ও ক্লিনিকাল ইউজ<br>
+      ✅ ক্যাশ অন ডেলিভারি সুবিধা
+    `,
+    link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20G1%20Advance%20Blood%20Glucose%20Strip%20(25*2)%2050%20pcs%20Test%20Strip"
+  },
+  {
+    name: "Quick Check Blood Glucose Test Strip 25 pcs Pack",
+    image: "images/Quick Check Blood Glucose Test Strip 25 pcs Pack.png",
+    mrp: 400,
+    discount: 25,
+    finalPrice: 300,
+    description: `
+      ✅ ব্র্যান্ড: Quick Check<br>
+      ✅ পণ্যের ধরন: Blood Sugar Test Strips<br>
+      ✅ প্যাক সাইজ: 25 Pieces<br>
+      ✅ স্টোরেজ: ঠান্ডা ও শুকনো স্থানে রাখুন<br>
+      ✅ স্ট্রিপ হ্যান্ডলিং: টেস্ট করার আগে হাত পরিষ্কার ও শুকনো রাখুন<br>
+      ✅ ব্যবহার উপযোগী: হোম ও ক্লিনিকাল ইউজ<br>
+      ✅ ক্যাশ অন ডেলিভারি সুবিধা
+    `,
+    link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Quick%20Check%20Blood%20Glucose%20Test%20Strip%2025%20pcs%20Pack"
+  },
+  {
+    name: "On Call Plus Blood Glucose Test Strip 50 pcs Pack",
+    image: "images/On Call Plus Blood Glucose Test Strip 50 pcs Pack.png",
+    mrp: 1000,
+    discount: 50,
+    finalPrice: 500,
+    description: `
+      ✅ ব্র্যান্ড: On Call Plus<br>
+      ✅ পণ্যের ধরন: Blood Sugar Test Strips<br>
+      ✅ প্যাক সাইজ: 50 Pieces<br>
+      ✅ স্টোরেজ: ঠান্ডা ও শুকনো স্থানে রাখুন<br>
+      ✅ স্ট্রিপ হ্যান্ডলিং: টেস্ট করার আগে হাত পরিষ্কার ও শুকনো রাখুন<br>
+      ✅ ব্যবহার উপযোগী: হোম ও ক্লিনিকাল ইউজ<br>
+      ✅ ক্যাশ অন ডেলিভারি সুবিধা
+    `,
+    link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20On%20Call%20Plus%20Blood%20Glucose%20Test%20Strip%2050%20pcs%20Pack"
   }
 ];
 
