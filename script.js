@@ -6,7 +6,7 @@ const products = [
       discount: 60,
       finalPrice: 740,
       image: "images/Sinocare Safe-Accu Blood Glucose Meter.png",
-      offerText: "🎉 অফার! অফার! অফার! 🎉<br>🔥 ৬০% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+      offerText: "🎉 অফার! অফার! অফার! 🎉<br>🔥 ৬০% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
       link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Sinocare%20Blood%20Glucose%20Meter"
       //link: "https://www.facebook.com/dhakamedishop"
     },
@@ -16,7 +16,7 @@ const products = [
     discount: 60,
     finalPrice: 660,
     image: "images/QLab Blood Glucose Monitoring System.jpg",
-    offerText: "🎉 অফার! অফার! অফার! 🎉<br>🔥 ৬০% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🎉 অফার! অফার! অফার! 🎉<br>🔥 ৬০% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Q.Lab%20Blood%20Glucose%20Meter"
     //link: "https://www.facebook.com/dhakamedishop"
   }
@@ -29,48 +29,48 @@ const strips = [
   {
     name: "Sinocare Safe-Accu Blood Glucose Test Strip 50's Pack",
     mrp: 1700,
-    discount: 60,
-    finalPrice: 680,
+    discount: 935,
+    finalPrice: 765,
     image: "images/Sinocare Safe-Accu Blood Glucose Test Strip 50's Pack.png",
-    offerText: "🔥 ৬০% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🔥 ৫৫% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Sinocare%20Safe-Accu%20Test%20Strip"
   },
   {
     name: "Q.Lab Blood Glucose Monitoring System Test Strip 25 pcs",
     mrp: 600,
-    discount: 16,
-    finalPrice: 500,
+    discount: 150,
+    finalPrice: 450,
     image: "images/Q.Lab Blood Glucose Monitoring System Test Strip 25 pcs.png",
-    offerText: "🔥 ১৬% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🔥 ২৫% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20QLab%20Test%20Strip"
   },
   {
-    name: "Sinocare Safe Accu 2 Blood Glucose Strip 50's Pack",
+    name: "Sinocare Safe Accu 2 Blood Glucose Test Strip 50's Pack",
     mrp: 850,
-    discount: 23,
-    finalPrice: 650,
+    discount: 102,
+    finalPrice: 748,
     image: "images/Sinocare Safe Accu 2 Blood Glucose Strip 50's Pack.png",
-    offerText: "🔥 ২৩% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🔥 ১২% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Sinocare%20Safe%20Accu%202%20Test%20Strip"
   }
   ,
   {
     name: "Sinocare Safe AQ Blood Glucose Test Strip 50's Pack",
     mrp: 1300,
-    discount: 52,
-    finalPrice: 620,
+    discount: 455,
+    finalPrice: 845,
     image: "images/Sinocare Safe AQ Blood Glucose Test Strip 50's Pack.png",
-    offerText: "🔥 52% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🔥 35% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Sinocare%20Safe%20AQ%20Test%20Strip"
   }
   ,
   {
     name: "G1 Advance Blood Glucose Strip (25*2) 50 pcs Pack",
     mrp: 985,
-    discount: 23,
-    finalPrice: 750,
+    discount: 80,
+    finalPrice: 905,
     image: "images/G1 Advance Blood Glucose Strip (25-2) 50 pcs Pack.png",
-    offerText: "🔥 ২৩% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🔥 ৮% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20G1%20Advance%20Blood%20Glucose%20Strip%20(25*2)%2050%20pcs%20Test%20Strip"
   }
   ,
@@ -80,16 +80,16 @@ const strips = [
     discount: 25,
     finalPrice: 300,
     image: "images/Quick Check Blood Glucose Test Strip 25 pcs Pack.png",
-    offerText: "🔥 ২৫% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🔥 ২৫% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20Quick%20Check%20Blood%20Glucose%20Test%20Strip%2025%20pcs%20Pack"
   },
   {
     name: "On Call Plus Blood Glucose Test Strip 50 pcs Pack",
     mrp: 1000,
-    discount: 50,
-    finalPrice: 500,
+    discount: 300,
+    finalPrice: 700,
     image: "images/On Call Plus Blood Glucose Test Strip 50 pcs Pack.png",
-    offerText: "🔥 ৫০% ডিসকাউন্ট 🔥<br>📅 অফার শেষ: 30 সেপ্টেম্বর ২০২৫<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
+    offerText: "🔥 ৩০% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
     link: "https://wa.me/8801346855700?text=I%20want%20to%20buy%20On%20Call%20Plus%20Blood%20Glucose%20Test%20Strip%2050%20pcs%20Pack"
   }
   
@@ -105,7 +105,7 @@ products.forEach((product, index) => {
     <h2>${product.name}</h2>
     <p class="offer">${product.offerText}</p>
     <p><del>MRP: ৳${product.mrp}</del></p>
-    <p>💥 ডিসকাউন্ট: ${product.discount}%</p>
+    <p>💥 ডিসকাউন্ট: ৳${product.discount}</p>
     <p class="final-price">💳 সেল প্রাইস: মাত্র ৳${product.finalPrice}</p>
     <div class="button-group">
       <a href="${product.link}" target="_blank">
@@ -129,7 +129,7 @@ strips.forEach((strip, index) => {
     <h2>${strip.name}</h2>
     <p class="offer">${strip.offerText}</p>
     <p><del>MRP: ৳${strip.mrp}</del></p>
-    <p>💥 ডিসকাউন্ট: ${strip.discount}%</p>
+    <p>💥 ডিসকাউন্ট: ৳${strip.discount}</p>
     <p class="final-price">💳 সেল প্রাইস: মাত্র ৳${strip.finalPrice}</p>
     <div class="button-group">
       <a href="${strip.link}" target="_blank">
