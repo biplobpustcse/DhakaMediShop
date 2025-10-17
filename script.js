@@ -3,7 +3,7 @@ const products = [
     {
       name: "Sinocare Safe-Accu Blood Glucose Monitoring System",
       mrp: 1850,
-      discount: 60,
+      discount: 1100,
       finalPrice: 740,
       image: "images/Sinocare Safe-Accu Blood Glucose Meter.png",
       offerText: "🎉 অফার! অফার! অফার! 🎉<br>🔥 ৬০% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
@@ -13,7 +13,7 @@ const products = [
     {
     name: "Q.Lab Blood Glucose Monitoring System",
     mrp: 1650,
-    discount: 60,
+    discount: 990,
     finalPrice: 660,
     image: "images/QLab Blood Glucose Monitoring System.jpg",
     offerText: "🎉 অফার! অফার! অফার! 🎉<br>🔥 ৬০% ডিসকাউন্ট 🔥<br>🚚 ক্যাশ অন ডেলিভারি সুবিধা",
